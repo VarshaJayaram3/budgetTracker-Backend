@@ -12,7 +12,11 @@ import reportRoutes from "./routes/reportRoutes.js";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin: 'https://budget-tracker-frontend-pi.vercel.app', // your frontend URL
+  methods: ['GET','POST','PUT','DELETE','OPTIONS'],
+  credentials: true
+}));
 app.use(express.json());
 
 // routes
