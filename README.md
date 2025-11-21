@@ -29,7 +29,9 @@ dotenv
 Create a .env file in backend:
 
 PORT=5000
+
 MONGO_URL=mongodb+srv://your-mongo-url
+
 JWT_SECRET=your-secret-key
 
 
