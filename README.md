@@ -5,6 +5,13 @@ Frontend: React + Context API + Axios + Bootstrap
 
 It helps users track their expenses, compare spending with category-wise budgets, and view monthly financial reports.
 
+🌐 **Live Website URL** 
+
+[<YOUR_RENDER_API_URL>](https://budget-tracker-frontend-pi.vercel.app)
+
+🔗 **Backend API Base URL**  
+[<YOUR_RENDER_API_URL>](https://budgettracker-backend-oiv9.onrender.com)
+
 
 ⚙️ Tech Stack
 
